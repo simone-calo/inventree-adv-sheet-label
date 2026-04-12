@@ -27,6 +27,8 @@ A label printing plugin for [InvenTree](https://inventree.org) which provides su
 > The latest version of this plugin currently supports the following InvenTree versions:
 > - **1.0.x** (tested with version **1.0.5**)
 > - **1.1.x** (tested with version **1.1.3**)
+> - **1.2.x** (tested with version **1.2.0**)
+> - **1.3.x** (tested with version **1.3.0**)
 > 
 > For older InvenTree versions, use version `1.2.2`, which supports the following InvenTree versions:
 > - **0.15.x**
