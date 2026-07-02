@@ -319,3 +319,13 @@ It is also recommended to save the workspace as a file (maybe somewhere in inven
 The InvenTree intellisense path might be something like  ```/home/inventree/src/backend/InvenTree``` instead of the path from the documentation.
 
 After that, start the InvenTree server with the debugger and the plugin should now be usable and debugable.
+
+## Update Installation
+
+> ```bash
+> docker compose exec inventree-server pip uninstall inventree-adv-sheet-label -y 
+> docker compose exec inventree-server pip install git+https://github.com/simone-calo/inventree-adv-sheet-label.git
+> docker compose restart
+> ```
+
+Repeat for the inventree-worker if the PDF generation fails with error 404 when using new custom layouts
