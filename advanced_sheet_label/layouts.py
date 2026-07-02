@@ -78,6 +78,30 @@ PAPER_SIZES = {
 }
 
 LAYOUTS = {
+    "Atlas-12": SheetLayout(
+        display_name="Atlas-12",
+        page_size=PAPER_SIZES["A4"],
+        label_width=100,
+        label_height=44.5,
+        columns=2,
+        rows=6,
+        column_spacing=2,
+        row_spacing=3,
+        corner_radius=2,
+        spacing_top=8   
+    ),
+    "Atlas-14": SheetLayout(
+        display_name="Atlas-14",
+        page_size=PAPER_SIZES["A4"],
+        label_width=99,
+        label_height=38,
+        columns=2,
+        rows=7,
+        column_spacing=2,
+        row_spacing=0,
+        corner_radius=2,
+        spacing_top=15   
+    ),
     "Atlas-16": SheetLayout(
         display_name="Atlas-16",
         page_size=PAPER_SIZES["A4"],
