@@ -88,8 +88,7 @@ LAYOUTS = {
         column_spacing=2,
         row_spacing=0,
         corner_radius=2,
-        spacing_top=12.7,
-        spacing_left=4.6
+        spacing_top=12.7   
     ),
     "Atlas-18": SheetLayout(
         display_name="Atlas-18",
@@ -101,8 +100,7 @@ LAYOUTS = {
         column_spacing=2,
         row_spacing=0,
         corner_radius=2,
-        spacing_top=7.5,
-        spacing_left=6.5
+        spacing_top=7.5
     ),
     "8160": SheetLayout(
         display_name="8160",
